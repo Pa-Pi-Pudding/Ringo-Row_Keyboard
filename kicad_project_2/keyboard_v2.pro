@@ -1,6 +1,6 @@
-update=2020/06/20 16:45:11
+update=2020/07/19 14:45:51
 version=1
-last_client=pcbnew
+last_client=kicad
 [general]
 version=1
 RootSch=
@@ -24,7 +24,7 @@ LibDir=
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=keyboard_v3.net
+LastNetListRead=keyboard_v2.net
 CopperLayerCount=2
 BoardThickness=1.6
 AllowMicroVias=0
@@ -32,7 +32,7 @@ AllowBlindVias=0
 RequireCourtyardDefinitions=0
 ProhibitOverlappingCourtyards=1
 MinTrackWidth=0.2
-MinViaDiameter=0.7999999999999999
+MinViaDiameter=0.762
 MinViaDrill=0.3
 MinMicroViaDiameter=0.09999999999999999
 MinMicroViaDrill=0.09999999999999999
