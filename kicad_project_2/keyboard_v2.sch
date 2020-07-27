@@ -1431,7 +1431,7 @@ U 1 1 5FB08D4A
 P 5900 8400
 F 0 "C1" V 5671 8400 50  0000 C CNN
 F 1 "22pF" V 5762 8400 50  0000 C CNN
-F 2 "kbd:D3_SMD_v2" H 5900 8400 50  0001 C CNN
+F 2 "kbd:D3_TH_SMD" H 5900 8400 50  0001 C CNN
 F 3 "~" H 5900 8400 50  0001 C CNN
 	1    5900 8400
 	0    1    1    0   
@@ -1442,7 +1442,7 @@ U 1 1 5FB372A8
 P 5900 8650
 F 0 "C2" V 5671 8650 50  0000 C CNN
 F 1 "22pF" V 5762 8650 50  0000 C CNN
-F 2 "kbd:D3_SMD_v2" H 5900 8650 50  0001 C CNN
+F 2 "kbd:D3_TH_SMD" H 5900 8650 50  0001 C CNN
 F 3 "~" H 5900 8650 50  0001 C CNN
 	1    5900 8650
 	0    1    1    0   
@@ -1593,22 +1593,10 @@ Wire Wire Line
 Wire Wire Line
 	6000 10400 6250 10400
 Connection ~ 6250 10400
-Text GLabel 9700 8050 2    50   Input ~ 0
-COL4
-Text GLabel 9700 8150 2    50   Input ~ 0
-COL5
-Text GLabel 9700 8250 2    50   Input ~ 0
-COL6
-Text GLabel 9700 8850 2    50   Input ~ 0
-COL7
-Text GLabel 9700 8950 2    50   Input ~ 0
-COL8
 Text GLabel 9700 9050 2    50   Input ~ 0
+COL7
+Text GLabel 9700 9450 2    50   Input ~ 0
 COL9
-Text GLabel 9700 9150 2    50   Input ~ 0
-COL10
-Text GLabel 9700 9250 2    50   Input ~ 0
-COL11
 $Comp
 L power:PWR_FLAG #FLG01
 U 1 1 5F673BED
@@ -2394,10 +2382,6 @@ Wire Wire Line
 Connection ~ 9150 850 
 Wire Wire Line
 	9150 850  9150 1650
-Text GLabel 9700 9350 2    50   Input ~ 0
-COL12
-Text GLabel 9700 9450 2    50   Input ~ 0
-COL13
 Text GLabel 750  4500 0    50   Input ~ 0
 ROW5
 Connection ~ 1200 2250
@@ -3209,4 +3193,20 @@ F 3 "" H 8700 10250 50  0001 L BNN
 $EndComp
 NoConn ~ 8300 9350
 NoConn ~ 13050 10450
+Text GLabel 9700 8950 2    50   Input ~ 0
+COL5
+Text GLabel 9700 8850 2    50   Input ~ 0
+COL4
+Text GLabel 9700 9350 2    50   Input ~ 0
+COL12
+Text GLabel 9700 9250 2    50   Input ~ 0
+COL11
+Text GLabel 9700 8250 2    50   Input ~ 0
+COL10
+Text GLabel 9700 8150 2    50   Input ~ 0
+COL6
+Text GLabel 9700 8050 2    50   Input ~ 0
+COL13
+Text GLabel 9700 9150 2    50   Input ~ 0
+COL8
 $EndSCHEMATC
